@@ -419,7 +419,10 @@ header .mobile,  header .tablet{
 }
 
 #quotes-section .content {
-  padding: 5rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 1.5rem;
 }
 
 #quotes-section .quote {
@@ -437,13 +440,10 @@ header .mobile,  header .tablet{
 
 @media only screen and (max-width: 760px) { 
   #quotes-section .content {
-    padding: 2.5rem;
-    display: flex;
-    align-items: flex-start;
+    padding: 3rem 1.5rem;
   }
 
-  #quotes-section .quote-citation {
-    
+  #quotes-section .quote-citation {    
     height: 2rem;
   }
 }
@@ -451,7 +451,7 @@ header .mobile,  header .tablet{
 
 @media only screen and (max-width: 550px) {
   #quotes-section .content {
-    display: block;
+    flex-direction: column;
     padding: 1.875rem .625rem;
   }
 
