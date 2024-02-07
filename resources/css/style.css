@@ -51,6 +51,8 @@ header .content {
 
 header .logo {
   flex: 1;
+  font-size: 1.5rem;
+  color: #4A4A4A;
 }
 
 header nav ul {
