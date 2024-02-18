@@ -1,8 +1,8 @@
+#### Objective provided by Codecademy
+
 ### WEB DEVELOPMENT FOUNDATIONS
 
 # Off-Platform Project: Fotomatic
-
-#### Objective provided by Codecademy:
 
 #### Fix a broken version of a responsive website in this project!
 
